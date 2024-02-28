@@ -131,6 +131,10 @@ java -jar target/tp_qualite-1.0.jar
 ....
 . Ajoutez les commentaires vus en dev.
 . Cherchez dans la documentation {maven} les commandes permettant de générer une documentation javadoc, et les adaptions à faire sur votre projet (et éventuellement `pom.xml`) afin que {maven} génère la documentation automatiquement pour vous.
+J'ai utilisé la commande : 
+....
+mvn javadoc:javadoc
+....
 . Documentez votre projet: remplacez le contenu de ce fichier README.doc par les instructions de compilation, de documentation et de lancement de votre projet. 
 
 == Consignes et rendus
